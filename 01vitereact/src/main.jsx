@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import Chai  from './chai'
 
 function MyApp() {
     return (
         <div>
-            <h1>Custom App | chai</h1>
+            <Chai />
         </div>
     )
 }

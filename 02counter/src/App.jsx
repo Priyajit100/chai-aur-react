@@ -19,7 +19,7 @@ function App() {
   }
 
   const removeValue = () => {
-  setCounter(prevCounter => prevCounter - 1) // ✅ Fixed!
+  setCounter(prevCounter => prevCounter - 1) 
 }
   
   return (
